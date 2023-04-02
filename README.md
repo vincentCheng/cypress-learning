@@ -34,3 +34,17 @@
 - 方式 3：cypress snippets 插件
 
 # mocha 是测试库，chai 是断言库。
+
+# 元素定位的简单方案
+
+- 手动打开浏览器，找到元素。
+- cypress 中有元素定位工具
+
+- 注意鼠标跳转，就像真人那样操作。
+
+```js
+/**
+ * 跳转鼠标
+ */
+cy.get("#loginPassword").focus().type("123");
+```
