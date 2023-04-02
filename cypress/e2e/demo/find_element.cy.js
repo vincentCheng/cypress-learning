@@ -21,4 +21,15 @@ describe("查找元素", () => {
     pwd_el = name_el.next("input");
     pwd_el.clear();
   });
+
+  /**
+   * 这种方式用的更多
+   */
+  it("within", () => {
+    cy.visit("https://example.cypress.io/commands/querying");
+    cy.get(".query-form").within(($form) => {
+      cy.get("input:first").type("username");
+      cy.get("input:last").type("12134");
+    });
+  });
 });

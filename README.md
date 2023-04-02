@@ -48,3 +48,9 @@
  */
 cy.get("#loginPassword").focus().type("123");
 ```
+
+# within 元素定位
+
+2023 年 4 月 2 日 10:26:47
+看到用户输入操作
+https://www.bilibili.com/video/BV14r4y1774N?p=15&spm_id_from=pageDriver&vd_source=59fab4ae7f7b6462cea577f55587fe78
