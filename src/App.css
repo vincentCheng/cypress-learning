@@ -1,8 +1,13 @@
+@import url("./test.css");
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   padding: 2rem;
   text-align: center;
+  border: 1px solid blue;
 }
 
 .logo {
